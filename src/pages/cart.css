@@ -1,0 +1,11 @@
+.cart{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:white;
+   
+
+    grid-row-gap: 40px;
+    grid-column-gap: 20px;
+}
+

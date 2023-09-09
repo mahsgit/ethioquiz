@@ -1,0 +1,31 @@
+.topbar{
+    width: 100%;
+    height: 80px;
+    background-color:white;
+    opacity: 0.9;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999; 
+    /* will be above any thing on top*/
+    font-family: "Josefin Sans", sans-serif;
+}
+.imglogo img {
+    width: 30px;
+    height: 30px;
+}
+.topbarItems{
+    display: flex;
+    margin-left: 500px;
+    
+
+}
+.topbarItem{
+    margin: 30px;
+    list-style: none;
+}
+.searchbar{
+    border-radius: 9px;
+}

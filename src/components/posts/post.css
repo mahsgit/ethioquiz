@@ -1,0 +1,115 @@
+.intro{
+text-align: center;
+font-size: 20px;
+
+margin-top: 50px;
+
+}
+.intro::first-letter{
+    font-size: 30px;
+    color: rgb(0, 132, 88);
+}
+
+.post {
+    width: 100px;
+    height: 100px;
+    margin: 90px 25px 40px 25px;
+    /* margin-top: 80px; */
+    display: flex;
+    flex-direction: column;
+  }
+  .post1{
+    display: flex;
+  
+  }
+  .postImgg1{
+    width: 250px;
+    height: 250px;
+    border-radius: 40%;
+  }
+  .postImgg2{
+    width: 180px;
+    height: 180px;
+    border-radius: 40% 40% 0 0;
+    margin-bottom: 200px;
+  }
+  .postimagediv{
+    margin-left: 300px;
+  }
+
+  .postInfo1{
+    margin-left: 30px;
+    font-size: 30px;
+
+
+  }
+  .post2{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .postImgg3{
+    width: 700px;
+    
+  }
+  .postImg2{
+    margin-left: 60px;
+  }
+  .postInfo2{
+    width: 300px;
+    margin-left: 60px;
+  }
+  .postImgg4{
+    width: 200px;
+    height: 200px;
+  }
+  .post3{
+    margin-left: 800px;
+  }
+  .postInfo {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+  }
+  .postInfo3{
+    margin-left: 200px;
+    width: 200px;
+    height: 100px;
+  }
+  .postImgg5{
+    width: 400px;
+    height: 400px;
+    border-radius: 40%;
+  }
+  
+ .postInfo4{
+    height: 100px;
+    width: 300px;
+    margin-left: 300px;
+  
+ }
+ 
+  
+  .postTitle {
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+
+  .postDescription {
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; 
+    /* line-height   the text between height    */
+    color: #444444;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient:vertical;
+  }
